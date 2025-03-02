@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Marek",
+    "species": "Zyrafa",
+    "age": 5,
+    "isEndangered": false,
+    "habitat": "Savanna"
+  },
+  {
+    "id": 2,
+    "name": "Koala",
+    "species": "Pantera",
+    "age": 3,
+    "isEndangered": true,
+    "habitat": "Jungle"
+  },
+  {
+    "id": 4,
+    "name": "Łkoy",
+    "species": "wiktor",
+    "age": 13,
+    "isEndangered": true,
+    "habitat": "Forest"
+  }
+]

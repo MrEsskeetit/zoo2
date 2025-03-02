@@ -1,6 +1,6 @@
-import express, { Application } from ;
+import express, { Application } from 'express';
 import bodyParser from 'body-parser';
-import animalsController from './controllers/animalsController';
+import animalsController from '../controllers/animalsController';
 
 type Port = number | string;
 
@@ -18,7 +18,7 @@ app.delete('/animals/deleteanimal/:id', animalsController.deleteAnimal);
 
 const PORT: Port = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(Server is running on port ${PORT});
+    console.log('Server is running on port ${PORT}');
 });
 
 export default app;
